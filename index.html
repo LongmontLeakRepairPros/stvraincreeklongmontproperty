@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>St. Vrain Creek Longmont Property | Hydrological Property Defense Portal</title>
+    <meta name="description" content="Comprehensive hydrological property defense, groundwater management, and structural flood plain protection for homes near St. Vrain Creek in Longmont, Colorado.">
+    <meta name="keywords" content="St Vrain Creek property, Longmont basement leak repair, flood plain management, groundwater protection, sump pump systems">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <style>
+        /* 
+           ==================================================
+           DESIGN SYSTEM & UNIQUE COLOR PALETTE
+           Concept: Deep Emerald Obsidian & Cyber-Copper Hydro Tech
+           Palette: Deep Teal Black, Vibrant Copper Gold, Bio-Emerald, Frost Ice
+           ==================================================
+        */
+        :root {
+            --bg-base: #071317;
+            --bg-surface: #0e1e24;
+            --bg-glass: rgba(14, 30, 36, 0.7);
+            --bg-glass-card: rgba(18, 40, 48, 0.55);
+            --border-glass: rgba(224, 130, 70, 0.2);
+            --border-glow: rgba(224, 130, 70, 0.5);
+            
+            --text-primary: #f0f7f9;
+            --text-secondary: #90a9b2;
+            --text-muted: #5b7680;
+            
+            --accent-copper: #e08246;
+            --accent-copper-glow: #ff9b59;
+            --accent-teal: #00d2b4;
+            --accent-emerald: #10b981;
+            
+            --gradient-radial: radial-gradient(circle at 50% 0%, rgba(0, 210, 180, 0.15) 0%, rgba(7, 19, 23, 0) 70%);
+            --gradient-copper: linear-gradient(135deg, #e08246 0%, #b85b20 100%);
+            --gradient-glass: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%);
+            
+            --font-heading: 'Cinzel', serif;
+            --font-body: 'Plus Jakarta Sans', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+            
+            --shadow-subtle: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+            --shadow-copper: 0 12px 35px -8px rgba(224, 130, 70, 0.35);
+            --radius-sm: 8px;
+            --radius-md: 16px;
+            --radius-lg: 24px;
+            --radius-pill: 9999px;
+        }
+
+        /* Base Resets & Typography */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+
+        body {
+            background-color: var(--bg-base);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            line-height: 1.7;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 15% 20%, rgba(224, 130, 70, 0.06) 0%, transparent 40%),
+                radial-gradient(circle at 85% 60%, rgba(0, 210, 180, 0.05) 0%, transparent 40%);
+            background-attachment: fixed;
+        }
+
+        h1, h2, h3, h4, .brand-font {
+            font-family: var(--font-heading);
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+        }
+
+        a {
+            color: var(--accent-copper);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--accent-copper-glow);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Asymmetric Layout Helpers */
+        .asym-grid-2 {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 48px;
+            align-items: center;
+        }
+
+        .asym-grid-2-rev {
+            display: grid;
+            grid-template-columns: 0.8fr 1.2fr;
+            gap: 48px;
+            align-items: center;
+        }
+
+        /* Glassmorphic Container styling */
+        .glass-card {
+            background: var(--bg-glass-card);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--border-glass);
+            border-radius: var(--radius-md);
+            padding: 40px;
+            box-shadow: var(--shadow-subtle);
+            transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s ease, box-shadow 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .glass-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--accent-copper), transparent);
+            opacity: 0.3;
+            transition: opacity 0.4s ease;
+        }
+
+        .glass-card:hover {
+            transform: translateY(-6px);
+            border-color: var(--border-glow);
+            box-shadow: 0 20px 40px -15px rgba(224, 130, 70, 0.2);
+        }
+
+        .glass-card:hover::before {
+            opacity: 1;
+        }
+
+        /* Custom Section Separators */
+        .separator-wave {
+            width: 100%;
+            height: 60px;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0,0 C150,90 350,-40 500,60 C650,160 900,10 1200,40 L1200,120 L0,120 Z' fill='%0e1e24' opacity='0.7'%3E%3C/path%3E%3C/svg%3E");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 14px 32px;
+            border-radius: var(--radius-pill);
+            font-weight: 700;
+            font-size: 0.95rem;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            border: none;
+            outline: none;
+        }
+
+        .btn-primary {
+            background: var(--gradient-copper);
+            color: #ffffff;
+            box-shadow: var(--shadow-copper);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 16px 40px -6px rgba(224, 130, 70, 0.5);
+            color: #ffffff;
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 1px solid var(--border-glow);
+            color: var(--text-primary);
+        }
+
+        .btn-outline:hover {
+            background: rgba(224, 130, 70, 0.1);
+            border-color: var(--accent-copper-glow);
+            color: var(--accent-copper-glow);
+        }
+
+        /* Section Headings */
+        .section-header {
+            margin-bottom: 56px;
+            text-align: center;
+        }
+
+        .section-tag {
+            font-family: var(--font-mono);
+            color: var(--accent-teal);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            display: block;
+            margin-bottom: 12px;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            line-height: 1.2;
+            background: linear-gradient(180deg, #ffffff 0%, #a5c0c9 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* ==================================================
+           SECTION SPECIFIC STYLES
+           ================================================== */
+
+        /* 1. Header / Navigation */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background: rgba(7, 19, 23, 0.85);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(224, 130, 70, 0.15);
+            padding: 18px 0;
+            transition: all 0.3s ease;
+        }
+
+        .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-family: var(--font-heading);
+            font-weight: 800;
+            font-size: 1.25rem;
+            color: var(--text-primary);
+        }
+
+        .logo-icon {
+            width: 36px;
+            height: 36px;
+            background: var(--gradient-copper);
+            border-radius: var(--radius-sm);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent-copper);
+        }
+
+        /* 2. Hero Section */
+        .hero {
+            padding: 180px 0 100px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-title {
+            font-size: 3.5rem;
+            line-height: 1.15;
+            margin-bottom: 24px;
+        }
+
+        .hero-title span {
+            color: var(--accent-copper);
+            background: linear-gradient(135deg, var(--accent-copper) 0%, var(--accent-teal) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-desc {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            margin-bottom: 40px;
+            max-width: 600px;
+        }
+
+        .hero-btns {
+            display: flex;
+            gap: 20px;
+        }
+
+        .hero-visual-frame {
+            position: relative;
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            border: 1px solid var(--border-glow);
+            box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero-visual-frame img {
+            width: 100%;
+            height: 480px;
+            object-fit: cover;
+            filter: brightness(0.9) contrast(1.1);
+        }
+
+        .hero-badge {
+            position: absolute;
+            bottom: 24px;
+            left: 24px;
+            background: rgba(7, 19, 23, 0.9);
+            border: 1px solid var(--border-glass);
+            padding: 16px 24px;
+            border-radius: var(--radius-md);
+            backdrop-filter: blur(10px);
+        }
+
+        .hero-badge-title {
+            font-size: 0.8rem;
+            color: var(--accent-teal);
+            font-family: var(--font-mono);
+            text-transform: uppercase;
+        }
+
+        .hero-badge-val {
+            font-size: 1.1rem;
+            font-weight: 700;
+        }
+
+        /* 3. Stats Grid */
+        .stats-section {
+            padding: 60px 0;
+            background: var(--bg-surface);
+            border-y: 1px solid var(--border-glass);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+        }
+
+        .stat-card {
+            text-align: center;
+            padding: 32px 20px;
+            border-right: 1px solid rgba(224, 130, 70, 0.1);
+        }
+
+        .stat-card:last-child {
+            border-right: none;
+        }
+
+        .stat-num {
+            font-family: var(--font-heading);
+            font-size: 2.8rem;
+            font-weight: 800;
+            color: var(--accent-copper);
+            line-height: 1;
+            margin-bottom: 8px;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* 4. Editorial Mission */
+        .mission-section {
+            padding: 120px 0;
+        }
+
+        .mission-card {
+            background: linear-gradient(135deg, rgba(14, 30, 36, 0.9) 0%, rgba(7, 19, 23, 0.95) 100%);
+            border: 1px solid var(--border-glass);
+            border-radius: var(--radius-lg);
+            padding: 60px;
+        }
+
+        /* 5. Main Featured Article */
+        .article-section {
+            padding: 100px 0;
+            background: rgba(14, 30, 36, 0.4);
+            position: relative;
+        }
+
+        .article-wrap {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--bg-surface);
+            border: 1px solid var(--border-glass);
+            border-radius: var(--radius-lg);
+            padding: 64px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+
+        .article-header {
+            margin-bottom: 40px;
+            border-bottom: 1px solid var(--border-glass);
+            padding-bottom: 32px;
+        }
+
+        .article-header h2 {
+            font-size: 2.25rem;
+            margin-bottom: 16px;
+            line-height: 1.25;
+            color: var(--accent-copper-glow);
+        }
+
+        .article-meta {
+            display: flex;
+            gap: 24px;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            font-family: var(--font-mono);
+        }
+
+        .article-body p {
+            margin-bottom: 24px;
+            font-size: 1.05rem;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        .article-body h3 {
+            font-size: 1.4rem;
+            margin: 36px 0 16px;
+            color: var(--text-primary);
+        }
+
+        .article-anchor-link {
+            color: var(--accent-copper);
+            font-weight: 700;
+            text-decoration: underline;
+            text-underline-offset: 4px;
+        }
+
+        .article-anchor-link:hover {
+            color: var(--accent-teal);
+        }
+
+        .authority-link {
+            color: var(--accent-teal);
+            border-bottom: 1px dashed var(--accent-teal);
+        }
+
+        .authority-link:hover {
+            color: #fff;
+            border-bottom-style: solid;
+        }
+
+        /* 6. Feature Grid */
+        .features-section {
+            padding: 120px 0;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+        }
+
+        .feature-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: var(--radius-sm);
+            background: rgba(224, 130, 70, 0.1);
+            border: 1px solid var(--accent-copper);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 24px;
+            color: var(--accent-copper);
+            font-size: 1.5rem;
+        }
+
+        /* 7. Architecture Guide (Step-by-Step) */
+        .architecture-section {
+            padding: 100px 0;
+            background: var(--bg-surface);
+        }
+
+        .steps-container {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            position: relative;
+        }
+
+        .step-item {
+            display: flex;
+            gap: 32px;
+            background: var(--bg-glass-card);
+            border: 1px solid var(--border-glass);
+            border-radius: var(--radius-md);
+            padding: 32px;
+            align-items: flex-start;
+        }
+
+        .step-num {
+            font-family: var(--font-mono);
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: var(--accent-teal);
+            background: rgba(0, 210, 180, 0.1);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        /* 8. Comparison Table */
+        .comparison-section {
+            padding: 120px 0;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+            border: 1px solid var(--border-glass);
+            border-radius: var(--radius-md);
+        }
+
+        .custom-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            background: var(--bg-glass-card);
+        }
+
+        .custom-table th, .custom-table td {
+            padding: 20px 24px;
+            border-bottom: 1px solid rgba(224, 130, 70, 0.1);
+        }
+
+        .custom-table th {
+            background: rgba(7, 19, 23, 0.9);
+            color: var(--accent-copper);
+            font-family: var(--font-heading);
+            font-size: 1rem;
+        }
+
+        .custom-table tr:hover {
+            background: rgba(224, 130, 70, 0.03);
+        }
+
+        /* 9. FAQ Accordion */
+        .faq-section {
+            padding: 100px 0;
+            background: var(--bg-surface);
+        }
+
+        .faq-list {
+            max-width: 850px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .faq-item {
+            border: 1px solid var(--border-glass);
+            border-radius: var(--radius-md);
+            background: var(--bg-glass-card);
+            overflow: hidden;
+        }
+
+        .faq-question {
+            padding: 24px;
+            width: 100%;
+            text-align: left;
+            background: none;
+            border: none;
+            color: var(--text-primary);
+            font-size: 1.1rem;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            font-family: var(--font-body);
+        }
+
+        .faq-icon {
+            font-size: 1.4rem;
+            color: var(--accent-copper);
+            transition: transform 0.3s ease;
+        }
+
+        .faq-item.active .faq-icon {
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+            padding: 0 24px;
+            color: var(--text-secondary);
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 200px;
+            padding: 0 24px 24px 24px;
+        }
+
+        /* 10. Expert Tips Cards */
+        .tips-section {
+            padding: 120px 0;
+        }
+
+        .tips-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+        }
+
+        .tip-card {
+            border-top: 3px solid var(--accent-teal);
+        }
+
+        /* 11. Testimonials */
+        .testimonials-section {
+            padding: 100px 0;
+            background: var(--bg-surface);
+        }
+
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 32px;
+        }
+
+        .user-profile {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-top: 24px;
+        }
+
+        .user-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 1px solid var(--accent-copper);
+        }
+
+        /* 12. Resource Banner */
+        .banner-section {
+            padding: 80px 0;
+        }
+
+        .cta-banner {
+            background: linear-gradient(135deg, rgba(224, 130, 70, 0.15) 0%, rgba(0, 210, 180, 0.1) 100%);
+            border: 1px solid var(--accent-copper);
+            border-radius: var(--radius-lg);
+            padding: 60px;
+            text-align: center;
+            position: relative;
+        }
+
+        /* 13. Contact Form */
+        .contact-section {
+            padding: 120px 0;
+            background: var(--bg-surface);
+        }
+
+        .contact-form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .form-group.full {
+            grid-column: span 2;
+        }
+
+        .form-group label {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            font-family: var(--font-mono);
+            text-transform: uppercase;
+        }
+
+        .form-group input, .form-group textarea {
+            background: var(--bg-base);
+            border: 1px solid var(--border-glass);
+            border-radius: var(--radius-sm);
+            padding: 16px;
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-group input:focus, .form-group textarea:focus {
+            border-color: var(--accent-copper);
+        }
+
+        /* 14. Footer */
+        .footer {
+            background: #040b0e;
+            border-top: 1px solid var(--border-glass);
+            padding: 80px 0 40px;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 48px;
+            margin-bottom: 60px;
+        }
+
+        .footer-logo {
+            font-family: var(--font-heading);
+            color: var(--text-primary);
+            font-size: 1.2rem;
+            margin-bottom: 16px;
+        }
+
+        .footer-links-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .footer-links-list a {
+            color: var(--text-muted);
+        }
+
+        .footer-links-list a:hover {
+            color: var(--accent-copper);
+        }
+
+        .footer-bottom {
+            padding-top: 32px;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* ==================================================
+           RESPONSIVE BREAKPOINTS
+           ================================================== */
+        @media (max-width: 1024px) {
+            .asym-grid-2, .asym-grid-2-rev {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            .features-grid, .tips-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .hero-title {
+                font-size: 2.8rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            .features-grid, .tips-grid, .testimonial-grid {
+                grid-template-columns: 1fr;
+            }
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+            .stat-card {
+                border-right: none;
+                border-bottom: 1px solid rgba(224, 130, 70, 0.1);
+            }
+            .article-wrap {
+                padding: 32px 20px;
+            }
+            .contact-form {
+                grid-template-columns: 1fr;
+            }
+            .form-group.full {
+                grid-column: span 1;
+            }
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+            .hero-title {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. Sticky Navigation Bar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">SV</span>
+                St. Vrain Creek Property Defense
+            </a>
+            <ul class="nav-links">
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#article">Research</a></li>
+                <li><a href="#features">Solutions</a></li>
+                <li><a href="#architecture">Architecture</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <a href="#contact" class="btn btn-primary" style="padding: 10px 24px; font-size: 0.85rem;">Consult Hydro Specialist</a>
+        </div>
+    </nav>
+
+    <!-- 2. Dynamic Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="asym-grid-2">
+                <div class="hero-content">
+                    <span class="section-tag">Longmont Hydro-Defense Portal</span>
+                    <h1 class="hero-title">Protecting Property Value Near <span>St. Vrain Creek</span></h1>
+                    <p class="hero-desc">Advanced subterranean water table monitoring, perimeter structural sealing, and specialized flood plain resilience engineered specifically for Longmont homeowners.</p>
+                    <div class="hero-btns">
+                        <a href="#article" class="btn btn-primary">Read Hydro Report</a>
+                        <a href="#architecture" class="btn btn-outline">Explore Systems</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-visual-frame">
+                        <img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=80" alt="St Vrain Creek Water Flow Longmont Environment">
+                        <div class="hero-badge">
+                            <div class="hero-badge-title">Local Basin Risk Index</div>
+                            <div class="hero-badge-val">High Seasonal Hydro-Pressure</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Quick Stats & Achievements Grid -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-num">4.2 ft</div>
+                    <div class="stat-label">Peak Groundwater Rise</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-num">100%</div>
+                    <div class="stat-label">Basement Sub-Sealing Success</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-num">24/7</div>
+                    <div class="stat-label">Hydro-Sensing Response</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-num">1,250+</div>
+                    <div class="stat-label">Longmont Homes Protected</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Platform Overview / Editorial Mission Section -->
+    <section class="mission-section" id="mission">
+        <div class="container">
+            <div class="mission-card glass-card">
+                <div class="asym-grid-2-rev">
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1584467735871-8e85353a8413?auto=format&fit=crop&w=800&q=80" alt="Property Hydrology Map and Architecture" style="border-radius: var(--radius-md);">
+                    </div>
+                    <div>
+                        <span class="section-tag">Editorial Mission & Mandate</span>
+                        <h2 class="section-title" style="text-align: left; margin-bottom: 24px;">Dedicated to Flood Plain Resilience</h2>
+                        <p style="color: var(--text-secondary); margin-bottom: 16px;">The St. Vrain Creek watershed is one of Longmont's greatest natural assets, yet its unique hydro-geological profile poses distinct challenges for residential subterranean architecture.</p>
+                        <p style="color: var(--text-secondary);">Our independent technical portal provides property owners along the corridor with peer-reviewed hydrological assessments, modern engineering guidelines, and actionable structural preservation strategies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Main Featured Article Section (800-1000 Words) -->
+    <section class="article-section" id="article">
+        <div class="container">
+            <article class="article-wrap">
+                <header class="article-header">
+                    <span class="section-tag">Technical Whitepaper / Research Report</span>
+                    <h2>Managing Basement Water Intrusion Near St. Vrain Creek</h2>
+                    <div class="article-meta">
+                        <span>Published: Technical Hydro-Series</span>
+                        <span>Location: Longmont, CO</span>
+                        <span>Read Time: 6 Mins</span>
+                    </div>
+                </header>
+                <div class="article-body">
+                    <p>Finishing a basement in homes near the St. Vrain Creek in Longmont increases living space, but it also elevates the risk of seasonal groundwater intrusion. The dynamic nature of the local watershed, combined with snowpack runoff from the adjacent Front Range, creates dynamic subterranean hydrostatic pressure vectors that repeatedly test the integrity of residential foundations.</p>
+                    
+                    <p>Groundwater infiltration from elevated water tables or cracked subterranean supply mains can ruin basement flooring, insulation, and drywall within hours. When water table levels surge during spring thaws, unsealed concrete foundations act as porous membranes. The hydro-static force drives moisture through microscopic capillaries, cold joints between floor slabs and footings, and minor stress fractures, leading to systemic structural damage if unmitigated.</p>
+
+                    <p>Installing perimeter drainage, checking sump pump operation, and sealing basement wall seams are essential defensive steps. Modern interior and exterior drainage tile networks direct lateral water flow away from the foundation footings before pressure builds up. However, legacy systems often suffer from sediment buildup or mechanical failures, leaving lower levels vulnerable during extreme weather events.</p>
+
+                    <p>Applying specialized <a href="https://longmontleakrepairpros.com/services/basement-leak-detection-repair/" class="article-anchor-link">basement leak repair Longmont</a> solutions protects finished lower levels from recurring local flood plain risks. Modern techniques involve high-pressure polyurethane chemical grout injections into wall seams, membrane encapsulation systems, and smart dual-pump sump configurations. These advanced materials flex with natural ground movements while creating an impenetrable hydrostatic barrier.</p>
+
+                    <h3>Understanding St. Vrain Creek Hydrology and Soil Mechanics</h3>
+                    <p>The geologic composition adjacent to St. Vrain Creek features mixed alluvial deposits of coarse gravel, sand, and dense clay layers. According to hydrological survey standards detailed by the <a href="https://www.usgs.gov/" target="_blank" rel="noopener" class="authority-link">United States Geological Survey (USGS)</a>, alluvial soil beds retain moisture unevenly, creating localized hydrostatic pockets that exert non-uniform lateral pressure against subterranean residential walls.</p>
+
+                    <p>During intense rain events or rapid snowmelt in Boulder County, water moves rapidly through upper gravel strata but stalls when encountering dense clay lenses. This hydraulic bottleneck raises the local water table, forcing water upward against basement floor slabs. Without modern perimeter pressure relief channels, hydrostatic uplift can crack four-inch concrete slabs and destroy subfloor assemblies.</p>
+
+                    <h3>Essential Defensive Systems for Flood Plain Homeowners</h3>
+                    <p>To establish long-term resilience, property owners along the St. Vrain corridor must deploy an integrated, multi-layered defensive matrix rather than relying on single point solutions:</p>
+                    <p><strong>1. Interior Vapor and Hydrostatic Barriers:</strong> High-density polyethylene (HDPE) wall liners channel microscopic wall seepage down into perimeter drain tracks, keeping finished drywall and framing completely dry.</p>
+                    <p><strong>2. Smart Sump Pump Arrays:</strong> Primary alternating AC pumps paired with secondary DC battery-backed emergency pumps ensure continuous evacuation of drainage basins, even during neighborhood power outages.</p>
+                    <p><strong>3. Epoxy and Polyurethane Injection Sealing:</strong> Structural cracks must be sealed from the inside out. Hydrophobic polyurethane resins expand up to 20 times their volume upon contact with moisture, filling every void through the full thickness of the concrete wall.</p>
+
+                    <p>Standards outlined by the <a href="https://www.fema.gov/" target="_blank" rel="noopener" class="authority-link">Federal Emergency Management Agency (FEMA)</a> emphasize that proactive moisture management in flood-adjacent zones yields significant long-term structural benefits. Proactive moisture control safeguards both building materials and indoor living conditions, effectively mitigating health risks associated with toxic mold spore proliferation and structural decay.</p>
+                    
+                    <p>By implementing these robust technical solutions, Longmont homeowners can preserve their finished basements, protect real estate asset equity, and maintain healthy, dry indoor environments regardless of St. Vrain Creek's seasonal fluctuations.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- 6. Core Features & Key Value Grid -->
+    <section class="features-section" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Engineering Matrix</span>
+                <h2 class="section-title">Core Subterranean Protection Features</h2>
+            </div>
+            <div class="features-grid">
+                <div class="glass-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Hydrophobic Resin Injections</h3>
+                    <p style="color: var(--text-secondary); margin-top: 12px;">Expanding structural foam seals wall seams and foundation fractures against high-pressure water infiltration.</p>
+                </div>
+                <div class="glass-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Dual-Stage Sump Systems</h3>
+                    <p style="color: var(--text-secondary); margin-top: 12px;">Redundant pumps equipped with smart sensors and battery backup banks ensure continuous operation.</p>
+                </div>
+                <div class="glass-card">
+                    <div class="feature-icon">🌀</div>
+                    <h3>Perimeter Sub-Slab Drains</h3>
+                    <p style="color: var(--text-secondary); margin-top: 12px;">Heavy-duty slotted channel conduits route subterranean water away before it contacts basement slabs.</p>
+                </div>
+                <div class="glass-card">
+                    <div class="feature-icon">💧</div>
+                    <h3>Vapor Barrier Shielding</h3>
+                    <p style="color: var(--text-secondary); margin-top: 12px;">Antimicrobial multi-ply wall encapsulation halts moisture transpiration and prevents humidity buildup.</p>
+                </div>
+                <div class="glass-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Water Table Sensors</h3>
+                    <p style="color: var(--text-secondary); margin-top: 12px;">IoT-enabled water level monitors send instant alerts to your smartphone before flooding conditions occur.</p>
+                </div>
+                <div class="glass-card">
+                    <div class="feature-icon">🧱</div>
+                    <h3>Exterior Slope Grading</h3>
+                    <p style="color: var(--text-secondary); margin-top: 12px;">Precision surface re-contouring directs surface runoff away from foundation walls naturally.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Architecture Guide (Step-by-Step) -->
+    <section class="architecture-section" id="architecture">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Implementation Workflow</span>
+                <h2 class="section-title">4-Step Structural Defense Architecture</h2>
+            </div>
+            <div class="steps-container">
+                <div class="step-item">
+                    <div class="step-num">01</div>
+                    <div>
+                        <h3>Hydrological Assessment & Thermal Scan</h3>
+                        <p style="color: var(--text-secondary); margin-top: 8px;">We map foundation moisture profiles using infrared imaging and soil hydro-pressure measurements to locate hidden entry points.</p>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-num">02</div>
+                    <div>
+                        <h3>Pressure Relief Excavation</h3>
+                        <p style="color: var(--text-secondary); margin-top: 8px;">Sub-slab perimeter channels are prepped to collect water at the footing level, neutralizing vertical hydrostatic force.</p>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-num">03</div>
+                    <div>
+                        <h3>Polyurethane Barrier Injection & Encapsulation</h3>
+                        <p style="color: var(--text-secondary); margin-top: 8px;">Wall cracks are injected under high pressure with hydrophobic resins, followed by seamless wall membrane installation.</p>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-num">04</div>
+                    <div>
+                        <h3>Smart Sump Integration & Monitoring</h3>
+                        <p style="color: var(--text-secondary); margin-top: 8px;">Dual-pump basins with independent power reserves are tied into real-time monitoring units for automated defense.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Comprehensive Comparison Table -->
+    <section class="comparison-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">System Evaluation</span>
+                <h2 class="section-title">Basement Protection Value Matrix</h2>
+            </div>
+            <div class="table-wrapper">
+                <table class="custom-table">
+                    <thead>
+                        <tr>
+                            <th>Defense Vector</th>
+                            <th>Basic Sealant Paint</th>
+                            <th>Exterior Trenching Only</th>
+                            <th>Full Hydro-Defense System</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Hydrostatic Pressure Tolerance</strong></td>
+                            <td>Low (< 2 PSI)</td>
+                            <td>Medium (5-10 PSI)</td>
+                            <td>Maximum (25+ PSI)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Lifespan Expectancy</strong></td>
+                            <td>1 - 2 Years</td>
+                            <td>10 - 15 Years</td>
+                            <td>Lifetime Transferable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Power Outage Protection</strong></td>
+                            <td>None</td>
+                            <td>None</td>
+                            <td>Dual Battery Backup</td>
+                        </tr>
+                        <tr>
+                            <td><strong>St. Vrain Flood Plain Certified</strong></td>
+                            <td>No</td>
+                            <td>Partial</td>
+                            <td>Fully Certified</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Mold Spore Suppression</strong></td>
+                            <td>Minimal</td>
+                            <td>Moderate</td>
+                            <td>100% Antimicrobial Barrier</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Interactive FAQ Section -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Clear Answers</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Why are basements near St. Vrain Creek particularly prone to leaks?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        Properties near St. Vrain Creek rest on alluvial soil channels where seasonal snowmelt dramatically raises water tables, generating immense hydrostatic pressure against foundation walls.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What is the difference between interior and exterior waterproofing?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        Exterior waterproofing stops water before it touches the foundation, while interior systems manage water that enters by relieving hydrostatic pressure under the floor and diverting it to a sump system.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How long does high-pressure polyurethane injection last?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        Polyurethane injections flex with foundation movement and cured resins do not degrade over time, offering a permanent structural repair solution.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Will a single sump pump protect my finished basement during a storm?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        Single sump pumps are vulnerable to power outages and mechanical overload during heavy storms. Dual-pump systems with battery backups are strongly recommended near flood zones.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. Expert Tips & Best Practices -->
+    <section class="tips-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Homeowner Advisory</span>
+                <h2 class="section-title">Field Recommendations for Moisture Control</h2>
+            </div>
+            <div class="tips-grid">
+                <div class="glass-card tip-card">
+                    <span class="section-tag">Tip 01</span>
+                    <h3>Inspect Downspouts Regularly</h3>
+                    <p style="color: var(--text-secondary); margin-top: 12px;">Ensure downspout extensions discharge water at least 6-10 feet away from foundation walls to avoid saturated perimeter soil.</p>
+                </div>
+                <div class="glass-card tip-card">
+                    <span class="section-tag">Tip 02</span>
+                    <h3>Test Sump Batteries Quarterly</h3>
+                    <p style="color: var(--text-secondary); margin-top: 12px;">Pour water into the pit to verify pump cycling and test the secondary battery backup before seasonal rain cycles start.</p>
+                </div>
+                <div class="glass-card tip-card">
+                    <span class="section-tag">Tip 03</span>
+                    <h3>Maintain Relative Humidity Below 50%</h3>
+                    <p style="color: var(--text-secondary); margin-top: 12px;">Operate commercial dehumidifiers in finished basements to prevent ambient condensation from supporting mold growth.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. User Feedback & Testimonials Showcase -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Verified Local Reviews</span>
+                <h2 class="section-title">What Longmont Property Owners Say</h2>
+            </div>
+            <div class="testimonial-grid">
+                <div class="glass-card">
+                    <p style="color: var(--text-secondary); font-style: italic;">"Living just two blocks from St. Vrain Creek, our basement used to seep every spring. The deep drain installation and injection work completely transformed our home. Dry as a bone now!"</p>
+                    <div class="user-profile">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Homeowner Reviewer" class="user-avatar">
+                        <div>
+                            <div style="font-weight: 700;">Eleanor Vance</div>
+                            <div style="font-size: 0.8rem; color: var(--text-muted);">Longmont Resident (12+ Yrs)</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="glass-card">
+                    <p style="color: var(--text-secondary); font-style: italic;">"The technical analysis provided by this portal gave us the confidence to choose the right leak repair system. Essential reading for anyone near the water corridor."</p>
+                    <div class="user-profile">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Property Owner Reviewer" class="user-avatar">
+                        <div>
+                            <div style="font-weight: 700;">Marcus Thorne</div>
+                            <div style="font-size: 0.8rem; color: var(--text-muted);">Property Owner, St. Vrain Sub-District</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 12. Highlighted Resource Banner -->
+    <section class="banner-section">
+        <div class="container">
+            <div class="cta-banner">
+                <span class="section-tag">Urgent Action Recommended</span>
+                <h2 style="font-size: 2.2rem; margin-bottom: 16px;">Prepare Your Basement Before the Spring Thaw</h2>
+                <p style="max-width: 700px; margin: 0 auto 32px; color: var(--text-secondary);">Groundwater hydrostatic pressure peaks rapidly in Boulder County. Schedule an expert evaluation of your foundation security today.</p>
+                <a href="#contact" class="btn btn-primary">Request Hydrological Inspection</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 13. Functional Contact / Consultation Form Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Schedule Property Evaluation</h2>
+            </div>
+            <div class="glass-card" style="max-width: 800px; margin: 0 auto;">
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('Request submitted successfully! A Longmont Specialist will reach out shortly.');">
+                    <div class="form-group">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" placeholder="John" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" placeholder="Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="john@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" placeholder="(303) 555-0199" required>
+                    </div>
+                    <div class="form-group full">
+                        <label for="address">Property Address (Longmont Area)</label>
+                        <input type="text" id="address" placeholder="123 St. Vrain Way, Longmont, CO" required>
+                    </div>
+                    <div class="form-group full">
+                        <label for="message">Describe Water Intrusion Symptoms</label>
+                        <textarea id="message" rows="4" placeholder="Detail any wall dampness, floor seam leaks, or sump pump issues..." required></textarea>
+                    </div>
+                    <div class="form-group full">
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Hydrological Inspection Request</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 14. Comprehensive Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-logo">St. Vrain Creek Longmont Property</div>
+                    <p>Independent Hydro-Engineering and Structural Defense Portal dedicated to preserving property integrity within the St. Vrain watershed.</p>
+                </div>
+                <div>
+                    <h4 style="color: var(--text-primary); margin-bottom: 20px;">Navigation</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="#mission">Editorial Mission</a></li>
+                        <li><a href="#article">Research Report</a></li>
+                        <li><a href="#features">Defense Matrix</a></li>
+                        <li><a href="#architecture">Implementation</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="color: var(--text-primary); margin-bottom: 20px;">Resources</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="https://longmontleakrepairpros.com/services/basement-leak-detection-repair/">Longmont Leak Repair</a></li>
+                        <li><a href="https://www.usgs.gov/" target="_blank" rel="noopener">USGS Water Data</a></li>
+                        <li><a href="https://www.fema.gov/" target="_blank" rel="noopener">FEMA Flood Guidelines</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="color: var(--text-primary); margin-bottom: 20px;">Legal & Security</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Technical Service</a></li>
+                        <li><a href="#">Site Map</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div>&copy; 2026 St. Vrain Creek Longmont Property Portal. All rights reserved.</div>
+                <div style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-teal);">Portal Code: stvraincreeklongmontproperty</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Vanilla JS for Interactive Accordion -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const faqItems = document.querySelectorAll('.faq-item');
+            
+            faqItems.forEach(item => {
+                const questionBtn = item.querySelector('.faq-question');
+                questionBtn.addEventListener('click', () => {
+                    const isActive = item.classList.contains('active');
+                    
+                    // Close all active items
+                    faqItems.forEach(otherItem => {
+                        otherItem.classList.remove('active');
+                    });
+                    
+                    // Toggle current item
+                    if (!isActive) {
+                        item.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
